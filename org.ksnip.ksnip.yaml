@@ -36,6 +36,4 @@ modules:
     sources:
       - type: git
         url: https://github.com/ksnip/ksnip.git
-        commit: 813b1048b5bfa5fb09a5aa838912e4b26c8b0c9c
-        # Enable the tag when the changes are in a new tag
-        # tag: v1.7.2
+        tag: v1.7.3
