@@ -27,16 +27,16 @@ modules:
     sources:
       - type: git
         url: https://github.com/ksnip/kColorPicker.git
-        tag: v0.1.5
+        tag: v0.1.6
   - name: kImageAnnotator
     buildsystem: cmake-ninja
     sources:
       - type: git
         url: https://github.com/ksnip/kImageAnnotator.git
-        tag: v0.4.2
+        tag: v0.5.0
   - name: ksnip
     buildsystem: cmake-ninja
     sources:
       - type: git
         url: https://github.com/ksnip/ksnip.git
-        tag: v1.8.2
+        tag: v1.9.0
