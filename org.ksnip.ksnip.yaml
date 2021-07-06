@@ -5,7 +5,8 @@ sdk: org.kde.Sdk
 command: ksnip
 rename-icon: ksnip
 finish-args:
-  - --socket=x11
+  - --socket=fallback-x11
+  - --socket=wayland
   - --share=ipc
   - --device=dri
   - --filesystem=host
