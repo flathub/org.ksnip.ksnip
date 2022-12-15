@@ -1,6 +1,6 @@
 app-id: org.ksnip.ksnip
 runtime: org.kde.Platform
-runtime-version: '6.4'
+runtime-version: '5.15-22.08'
 sdk: org.kde.Sdk
 command: ksnip
 rename-icon: ksnip
