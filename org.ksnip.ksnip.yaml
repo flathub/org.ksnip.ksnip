@@ -40,7 +40,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/ksnip/kImageAnnotator.git
-        tag: v0.6.0
+        tag: v0.6.1
   - name: ksnip
     buildsystem: cmake-ninja
     config-opts:
@@ -48,4 +48,4 @@ modules:
     sources:
       - type: git
         url: https://github.com/ksnip/ksnip.git
-        tag: v1.10.0
+        tag: v1.10.1
