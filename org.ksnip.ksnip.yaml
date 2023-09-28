@@ -14,6 +14,7 @@ finish-args:
   - --talk-name=org.freedesktop.Notifications # Enable notification in wayland
   - --talk-name=org.gnome.Shell.Screenshot # Connect wayland screenshot portal
   - --talk-name=org.freedesktop.portal.Screenshot # Connect wayland screenshot portal
+  - --talk-name=org.kde.StatusNotifierWatcher # Tray on KDE
   - --filesystem=/tmp # Copy the screenshots in gnome wayland
 cleanup:
   - "*.a"
