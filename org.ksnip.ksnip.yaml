@@ -11,7 +11,6 @@ finish-args:
   - --device=dri
   - --filesystem=host
   - --share=network
-  - --own-name=org.kde.* # Show appindicator + Connect wayland screenshot portal
   - --talk-name=org.freedesktop.Notifications # Enable notification in wayland
   - --talk-name=org.gnome.Shell.Screenshot # Connect wayland screenshot portal
   - --talk-name=org.freedesktop.portal.Screenshot # Connect wayland screenshot portal
