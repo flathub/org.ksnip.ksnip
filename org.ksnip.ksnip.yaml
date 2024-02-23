@@ -1,6 +1,6 @@
 app-id: org.ksnip.ksnip
 runtime: org.kde.Platform
-runtime-version: '5.15-22.08'
+runtime-version: '5.15-23.08'
 sdk: org.kde.Sdk
 command: ksnip
 rename-icon: ksnip
@@ -13,7 +13,6 @@ finish-args:
   - --share=network
   - --talk-name=org.freedesktop.Notifications # Enable notification in wayland
   - --talk-name=org.gnome.Shell.Screenshot # Connect wayland screenshot portal
-  - --talk-name=org.freedesktop.portal.Screenshot # Connect wayland screenshot portal
   - --talk-name=org.kde.StatusNotifierWatcher # Tray on KDE
   - --filesystem=/tmp # Copy the screenshots in gnome wayland
 cleanup:
