@@ -52,4 +52,4 @@ modules:
     sources:
       - type: git
         url: https://github.com/ksnip/ksnip.git
-        tag: v1.10.1
+        commit: c0c5ae2ec32c5f0ea6a1f2c3f8073d8bbd0d200c
