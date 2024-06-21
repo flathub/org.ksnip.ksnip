@@ -27,19 +27,23 @@ modules:
     config-opts:
       - -DBUILD_EXAMPLE:BOOL=OFF
       - -DBUILD_TESTS:BOOL=OFF
+      - -DBUILD_WITH_QT6=ON
     sources:
       - type: git
         url: https://github.com/ksnip/kColorPicker.git
         tag: v0.2.0
+
   - name: kImageAnnotator
     buildsystem: cmake-ninja
     config-opts:
       - -DBUILD_EXAMPLE:BOOL=OFF
       - -DBUILD_TESTS:BOOL=OFF
+      - -DBUILD_WITH_QT6=ON
     sources:
       - type: git
         url: https://github.com/ksnip/kImageAnnotator.git
         tag: v0.6.1
+
   - name: ksnip
     buildsystem: cmake-ninja
     config-opts:
