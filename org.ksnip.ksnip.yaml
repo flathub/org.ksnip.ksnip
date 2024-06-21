@@ -44,6 +44,7 @@ modules:
     buildsystem: cmake-ninja
     config-opts:
       - -DBUILD_TESTS:BOOL=OFF
+      - -DBUILD_WITH_QT6=ON
     sources:
       - type: git
         url: https://github.com/ksnip/ksnip.git
