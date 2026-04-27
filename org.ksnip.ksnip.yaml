@@ -1,6 +1,6 @@
 app-id: org.ksnip.ksnip
 runtime: org.kde.Platform
-runtime-version: '5.15-24.08'
+runtime-version: '5.15-25.08'
 sdk: org.kde.Sdk
 command: ksnip
 rename-icon: ksnip
@@ -16,11 +16,9 @@ finish-args:
   - --talk-name=org.kde.StatusNotifierWatcher # Tray on KDE
   - --filesystem=/tmp # Copy the screenshots in gnome wayland
 cleanup:
-  - "*.a"
-  - "/include"
-  - "/lib/cmake"
-  - "/lib/mkspecs"
-  - "/mkspecs"
+  - /include
+  - /lib/cmake
+  - '*.a'
 modules:
   - name: kColorPicker
     buildsystem: cmake-ninja
@@ -31,6 +29,8 @@ modules:
       - type: git
         url: https://github.com/ksnip/kColorPicker.git
         tag: v0.2.0
+        commit: 15e16374e51153006d3400cb88066d5272698743
+
   - name: kImageAnnotator
     buildsystem: cmake-ninja
     config-opts:
@@ -40,6 +40,8 @@ modules:
       - type: git
         url: https://github.com/ksnip/kImageAnnotator.git
         tag: v0.6.1
+        commit: 997fd557b96ea238e27a15f11b0acf338cfe7db4
+
   - name: ksnip
     buildsystem: cmake-ninja
     config-opts:
@@ -48,3 +50,5 @@ modules:
       - type: git
         url: https://github.com/ksnip/ksnip.git
         tag: v1.10.1
+        commit: ea63a5bf91fbb4d5cc644c7b673af08a0ff847be
+
